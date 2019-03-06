@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+.header .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+.header .trigger:hover {
+  color: #1890ff;
+}
+
+.header .logo {
+  font-size: 24px;
+}
+.header .searchInput {
+  margin-left: auto;
+  width: 250px;
+  margin-right: 12px;
+}
+
+.sidemenu .ant-layout-sider-children ul .ant-menu-item a,
+.sidemenu .ant-layout-sider-children ul .ant-menu-submenu span {
+  font-size: 12px;
+}
+
+.main-content {
+  margin: 12px;
+  background: #fff;
+  min-height: 100vh;
+  max-height: 100vh;
+  padding: 15px;
+}
+  
